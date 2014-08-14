@@ -1,0 +1,200 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:so16-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "14 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EM4095 U1
+U 1 1 53ECFC05
+P 5250 3750
+F 0 "U1" H 5300 3250 60  0000 C CNN
+F 1 "EM4095" H 5250 4250 60  0000 C CNN
+F 2 "~" H 4850 4300 60  0000 C CNN
+F 3 "~" H 4850 4300 60  0000 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P1
+U 1 1 53ECFC1E
+P 4050 3750
+F 0 "P1" V 4000 3750 60  0000 C CNN
+F 1 "CONN_8" V 4100 3750 60  0000 C CNN
+F 2 "" H 4050 3750 60  0000 C CNN
+F 3 "" H 4050 3750 60  0000 C CNN
+	1    4050 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P2
+U 1 1 53ECFC3A
+P 6550 3750
+F 0 "P2" V 6500 3750 60  0000 C CNN
+F 1 "CONN_8" V 6600 3750 60  0000 C CNN
+F 2 "" H 6550 3750 60  0000 C CNN
+F 3 "" H 6550 3750 60  0000 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3400 6200 3400
+Wire Wire Line
+	6050 3500 6200 3500
+Wire Wire Line
+	6050 3600 6200 3600
+Wire Wire Line
+	6050 3700 6200 3700
+Wire Wire Line
+	6050 3800 6200 3800
+Wire Wire Line
+	6050 3900 6200 3900
+Wire Wire Line
+	6200 4000 6050 4000
+Wire Wire Line
+	6050 4100 6200 4100
+Wire Wire Line
+	4400 3400 4550 3400
+Wire Wire Line
+	4550 3500 4400 3500
+Wire Wire Line
+	4400 3600 4550 3600
+Wire Wire Line
+	4550 3700 4400 3700
+Wire Wire Line
+	4400 3800 4550 3800
+Wire Wire Line
+	4550 3900 4400 3900
+Wire Wire Line
+	4400 4000 4550 4000
+Wire Wire Line
+	4550 4100 4400 4100
+$Comp
+L ATTINY13A-S IC1
+U 1 1 53ED094A
+P 4800 5000
+F 0 "IC1" H 4900 5050 60  0000 C CNN
+F 1 "ATTINY13A-S" H 6100 4250 60  0000 C CNN
+F 2 "SO8-200" H 5050 4250 60  0001 C CNN
+F 3 "" H 4800 5000 60  0000 C CNN
+	1    4800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P3
+U 1 1 53ED0959
+P 3900 5450
+F 0 "P3" V 3850 5450 50  0000 C CNN
+F 1 "CONN_4" V 3950 5450 50  0000 C CNN
+F 2 "" H 3900 5450 60  0000 C CNN
+F 3 "" H 3900 5450 60  0000 C CNN
+	1    3900 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 5600 4250 5600
+Wire Wire Line
+	4600 5400 4450 5400
+Wire Wire Line
+	4450 5400 4450 5500
+Wire Wire Line
+	4450 5500 4250 5500
+Wire Wire Line
+	4600 5500 4500 5500
+Wire Wire Line
+	4500 5500 4500 5350
+Wire Wire Line
+	4500 5350 4400 5350
+Wire Wire Line
+	4400 5350 4400 5400
+Wire Wire Line
+	4400 5400 4250 5400
+Wire Wire Line
+	4250 5300 4250 5200
+Wire Wire Line
+	4250 5200 3700 5200
+Wire Wire Line
+	3700 5200 3700 5800
+Wire Wire Line
+	3700 5800 6600 5800
+Wire Wire Line
+	6600 5800 6600 5600
+$Comp
+L CONN_4 P4
+U 1 1 53ED09D4
+P 4000 4850
+F 0 "P4" V 3950 4850 50  0000 C CNN
+F 1 "CONN_4" V 4050 4850 50  0000 C CNN
+F 2 "" H 4000 4850 60  0000 C CNN
+F 3 "" H 4000 4850 60  0000 C CNN
+	1    4000 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 5100 4600 4700
+Wire Wire Line
+	4600 4700 4350 4700
+Wire Wire Line
+	4600 5200 4500 5200
+Wire Wire Line
+	4500 5200 4500 4800
+Wire Wire Line
+	4500 4800 4350 4800
+Wire Wire Line
+	4600 5300 4450 5300
+Wire Wire Line
+	4450 5300 4450 4900
+Wire Wire Line
+	4450 4900 4350 4900
+Wire Wire Line
+	4350 5000 4350 5100
+Wire Wire Line
+	4350 5100 3700 5100
+Wire Wire Line
+	3700 5100 3700 4550
+Wire Wire Line
+	3700 4550 6600 4550
+Wire Wire Line
+	6600 4550 6600 5100
+$EndSCHEMATC

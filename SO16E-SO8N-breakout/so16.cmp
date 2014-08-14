@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-08-14 22:19:23
+
+BeginCmp
+TimeStamp = /53ED094A;
+Reference = IC1;
+ValeurCmp = ATTINY13A-S;
+IdModule  = SO8N-BEGINER;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ECFC1E;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ECFC3A;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ED0959;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ED09D4;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ECFC05;
+Reference = U1;
+ValeurCmp = EM4095;
+IdModule  = SO16-BEGINER;
+EndCmp
+
+EndListe
